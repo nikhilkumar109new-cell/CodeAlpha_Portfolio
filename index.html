@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of an aspiring full stack developer, showcasing skills, projects, education, and contact details.">
+  <title>Nikhill | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Nikhill home"><span class="logo-mark">N</span>nikhill<span class="logo-dot">.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span></span> OPEN TO LEARNING & OPPORTUNITIES</div>
+        <p class="hero-kicker">HELLO, I'M NIKHILL</p>
+        <h1>I build things<br>for the <span>web.</span></h1>
+        <p class="hero-description">Aspiring full stack developer focused on building clean, responsive, and user-friendly digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>03</strong><span>Featured projects</span></div>
+          <div><strong>05+</strong><span>Technologies learning</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract developer illustration">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>developer.js</small></div>
+          <div class="code-lines">
+            <p><span class="code-purple">const</span> developer = {</p>
+            <p class="indent"><span class="code-blue">name</span>: <span class="code-green">'Nikhill'</span>,</p>
+            <p class="indent"><span class="code-blue">focus</span>: <span class="code-green">'Web development'</span>,</p>
+            <p class="indent"><span class="code-blue">curious</span>: <span class="code-orange">true</span>,</p>
+            <p>};</p>
+            <p class="code-comment">// always learning ✦</p>
+          </div>
+          <div class="code-footer"><span>HTML</span><span>CSS</span><span>JS</span><span>JAVA</span><span>SQL</span></div>
+        </div>
+        <div class="floating-badge badge-top">✳ Creative thinking</div>
+        <div class="floating-badge badge-bottom"><span class="badge-icon">⌘</span><span><b>Build. Learn. Repeat.</b><small>One project at a time</small></span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-label"><span>01 / ABOUT</span><i></i></div>
+        <div class="about-content">
+          <h2>Curious by nature.<br><span>Developer by choice.</span></h2>
+          <p>I'm an aspiring full stack developer with a growing foundation in HTML, CSS, JavaScript, Java, and SQL. I enjoy turning ideas into useful web experiences and learning how design, logic, and data work together.</p>
+          <p>Right now, I'm focused on strengthening my fundamentals, building practical projects, and improving with every line of code.</p>
+          <a class="text-link" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-label"><span>02 / SKILLS</span><i></i></div>
+        <div class="section-heading">
+          <h2>Tools in my <span>toolkit.</span></h2>
+          <p>Technologies I'm learning and using to build better projects.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-number">01</span><div class="skill-icon html-icon">5</div><h3>HTML5</h3><p>Semantic structure & accessible markup</p><span class="skill-tag">STRUCTURE</span></article>
+          <article class="skill-card"><span class="skill-number">02</span><div class="skill-icon css-icon">✳</div><h3>CSS3</h3><p>Layouts, styling & responsive design</p><span class="skill-tag">DESIGN</span></article>
+          <article class="skill-card"><span class="skill-number">03</span><div class="skill-icon js-icon">JS</div><h3>JavaScript</h3><p>Interactivity & programming fundamentals</p><span class="skill-tag">INTERACTION</span></article>
+          <article class="skill-card"><span class="skill-number">04</span><div class="skill-icon java-icon">♨</div><h3>Java</h3><p>Object-oriented programming basics</p><span class="skill-tag">LOGIC</span></article>
+          <article class="skill-card"><span class="skill-number">05</span><div class="skill-icon sql-icon">▤</div><h3>SQL</h3><p>Queries, tables & data fundamentals</p><span class="skill-tag">DATABASE</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-label"><span>03 / SELECTED WORK</span><i></i></div>
+        <div class="section-heading projects-heading">
+          <div><h2>Small steps.<br><span>Real projects.</span></h2></div>
+          <p>A few projects built to practise, experiment, and turn concepts into working interfaces.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview calculator-preview">
+              <div class="mini-calculator"><div class="mini-display">1,024<span>+</span></div><div class="mini-keys"><i></i><i></i><i></i><i class="green"></i><i></i><i></i><i></i><i class="green"></i><i></i><i></i><i></i><i class="green"></i></div></div>
+              <span class="preview-label">01 / INTERACTIVE TOOL</span>
+            </div>
+            <div class="project-info"><div><span class="project-type">JAVASCRIPT</span><h3>Modern Calculator</h3></div><span class="project-arrow">↗</span></div>
+            <p>A responsive calculator with arithmetic operations, keyboard support, and a clean dark interface.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Explore Project ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="project-preview gallery-preview">
+              <div class="gallery-tile tile-one"></div><div class="gallery-tile tile-two"></div><div class="gallery-tile tile-three"></div><div class="gallery-tile tile-four"></div>
+              <span class="preview-label">02 / VISUAL EXPERIENCE</span>
+            </div>
+            <div class="project-info"><div><span class="project-type">IMAGE GALLERY</span><h3>Frame Gallery</h3></div><span class="project-arrow">↗</span></div>
+            <p>A responsive photography gallery featuring category filters, a lightbox, and image navigation.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Explore Project ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="project-preview portfolio-preview">
+              <div class="portfolio-window"><span></span><span></span><span></span><div class="portfolio-window-line"></div><div class="portfolio-window-block"></div><div class="portfolio-window-line short"></div></div>
+              <span class="preview-label">03 / PERSONAL BRAND</span>
+            </div>
+            <div class="project-info"><div><span class="project-type">WEB DESIGN</span><h3>Developer Portfolio</h3></div><span class="project-arrow">↗</span></div>
+            <p>A personal portfolio to introduce my skills, showcase projects, and make it easy to connect.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="#home">You're viewing this project ↗</a>
+          </article>
+        </div>
+        <p class="edit-note">Before publishing, replace the placeholder GitHub links with your actual repository URLs.</p>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container education-grid">
+        <div><div class="section-label"><span>04 / EDUCATION</span><i></i></div><h2>Learning is<br><span>the long game.</span></h2></div>
+        <div class="education-list">
+          <article class="education-item"><span class="education-dot"></span><div><span class="education-period">CLASS 12</span><h3>Higher Secondary Education</h3><p>D.A.V High School Siwan, Science, and 2023.</p></div><span class="education-status">COMPLETED</span></article>
+          <article class="education-item"><span class="education-dot"></span><div><span class="education-period">CLASS 10</span><h3>Secondary Education</h3><p>D.A.V High School Siwan, 2021.</p></div><span class="education-status">COMPLETED</span></article>
+          <article class="education-item"><span class="education-dot"></span><div><span class="education-period">ONGOING</span><h3>Bachelor of computer application </h3><p>Building projects and learning through hands-on practice.</p></div><span class="education-status current">IN PROGRESS</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div class="section-label"><span>05 / CONTACT</span><i></i></div>
+        <p class="contact-kicker">HAVE A PROJECT OR OPPORTUNITY?</p>
+        <h2>Let's make something<br><span>meaningful.</span></h2>
+        <p class="contact-copy">I'm open to connecting with fellow learners, developers, and people working on interesting ideas.</p>
+        <div class="contact-actions">
+          <!-- Replace the example email with your real email address. -->
+          <a class="button button-primary" href="mailto:your.email@example.com">Email me <span>↗</span></a>
+          <a class="button button-outline" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <a class="button button-outline" href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+        <p class="contact-edit-note">Remember to update the email, LinkedIn, GitHub, and education placeholders before sharing your portfolio.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home"><span class="logo-mark">N</span>nikhill<span class="logo-dot">.</span></a>
+    <p>Designed & built with care.</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <span class="copyright">© <span id="year"></span> Nikhill</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
