@@ -1,26 +1,58 @@
-# CodeAlpha Portfolio Website
+# 👨‍💻 Personal Portfolio Website
 
-A responsive personal developer portfolio built with HTML, CSS, and vanilla JavaScript.
+A modern, responsive personal portfolio website built using HTML, CSS, and JavaScript. This portfolio showcases my technical skills, projects, education, and contact information through a clean and professional design.
 
-## Features
-- Responsive navigation with mobile menu
-- Hero, About, Skills, Projects, Education, and Contact sections
-- CSS project previews and subtle motion effects
-- Responsive layouts for desktop, tablet, and mobile
-- Smooth anchor scrolling and reduced-motion support
+## ✨ Features
 
-## Personalize before publishing
-1. Replace `Nikhill` and any copy you want to personalize.
-2. Update education placeholders with your real school names, stream, and years.
-3. Replace the example email `your.email@example.com` with your real email.
-4. Replace the GitHub and LinkedIn placeholder URLs with your profile links.
-5. Update project repository links in the Projects section.
-6. Check the site on mobile and desktop before publishing.
+* Responsive design for desktop, tablet, and mobile devices.
+* Home section with a personal introduction.
+* About Me section describing my interests and goals.
+* Skills section highlighting my technical knowledge.
+* Projects section showcasing my development work.
+* Education section displaying academic information.
+* Contact section with social and professional links.
+* Smooth scrolling and interactive hover effects.
+* Mobile-friendly navigation menu.
+* Modern dark theme with lime-green accents.
 
-## Run locally
-Open `index.html` in a browser. An internet connection is used for Google Fonts and the small photo preview images.
+## 🛠️ Technologies Used
 
-## Files
-- `index.html` — portfolio sections and content
-- `style.css` — theme, responsive layout, and animations
-- `script.js` — mobile navigation and current footer year
+* HTML5
+* CSS3
+* JavaScript
+
+## 📂 Project Structure
+
+```text
+CodeAlpha_Portfolio/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in your browser.
+4. Alternatively, use the Live Server extension in Visual Studio Code.
+
+An internet connection is required to load the external fonts and image previews.
+
+## 🎯 Purpose
+
+This project was created to practise frontend development, improve responsive web design skills, and showcase my projects and technical knowledge.
+
+## 👨‍💻 Author
+
+**Nikhill**
+
+Aspiring Full Stack Developer
+
+## 📌 Future Improvements
+
+* Add a downloadable resume.
+* Connect the contact section to a functional contact form.
+* Add live demo links for individual projects.
+* Deploy the portfolio using GitHub Pages.
